@@ -44,31 +44,31 @@ public class DatosdePrueba
 
     private void cargarClientes()
     {
-        Cliente c1 = new Cliente(1, "Waldina de Zavala", "1618-1984-00253");
+        Cliente c1 = new Cliente(1, "Jeny Kim", "0310-1980-00289");
         ListadeClientes.Add(c1);
 
-        Cliente c2 = new Cliente(2, "Hannia Trondle", "1407-2008-00106");
+        Cliente c2 = new Cliente(2, "Lisa Flores", "0501-1998-01289");
         ListadeClientes.Add(c2);
 
-        Cliente c3 = new Cliente(3, "Bryan Zavala", "0512-1985-01596");
+        Cliente c3 = new Cliente(3, "Rose Park", "0507-1969-00678");
         ListadeClientes.Add(c3);
     }
 
     private void cargarVendedores()
     {
-        Vendedor v1 = new Vendedor(1, "Francisco Zavala", "V0001");
+        Vendedor v1 = new Vendedor(1, "Maycol Rodriguez", "FG0001");
         ListadeVendedores.Add(v1);
 
-        Vendedor v2 = new Vendedor(2, "Bily Fernandez", "V0002");
+        Vendedor v2 = new Vendedor(2, "Riun Gomez", "FG0002");
         ListadeVendedores.Add(v2);
     }
 
     public void ListarProductos()
     {
         Console.Clear();
-        Console.WriteLine("========ZavMur========");
+        Console.WriteLine("====================");
         Console.WriteLine("= Lista de Productos =");
-        Console.WriteLine("========ZavMur========");
+        Console.WriteLine("=====================");
         Console.WriteLine("");
         
         foreach (var producto in ListadeProductos)
@@ -82,9 +82,9 @@ public class DatosdePrueba
     public void ListarClientes()
     {
         Console.Clear();
-        Console.WriteLine("========ZavMur=======");
+        Console.WriteLine("=====================");
         Console.WriteLine("= Lista de Clientes =");
-        Console.WriteLine("========ZavMur=======");
+        Console.WriteLine("======================");
         Console.WriteLine("");
         
         foreach (var cliente in ListadeClientes)
@@ -98,9 +98,9 @@ public class DatosdePrueba
     public void ListarVendedores()
     {
         Console.Clear();
-        Console.WriteLine("========ZavMur=========");
+        Console.WriteLine("=======================");
         Console.WriteLine("= Lista de Vendedores =");
-        Console.WriteLine("========ZavMur=========");
+        Console.WriteLine("=======================");
         Console.WriteLine("");
         
         foreach (var vendedor in ListadeVendedores)
@@ -113,9 +113,9 @@ public class DatosdePrueba
 
     public void CrearVenta()
     {
-        Console.WriteLine("=====ZavMur======");
+        Console.WriteLine("================");
         Console.WriteLine("= Creando Venta =");
-        Console.WriteLine("=====ZavMur======");
+        Console.WriteLine("=================");
         Console.WriteLine("");
 
         Console.WriteLine("Ingrese el codigo del cliente: ");
@@ -183,14 +183,14 @@ public class DatosdePrueba
     public void ListarVentas()
     {
         Console.Clear();
-        Console.WriteLine("======ZavMur=======");
+        Console.WriteLine("===================");
         Console.WriteLine("= Lista de Ventas =");
-        Console.WriteLine("======ZavMur=======");
+        Console.WriteLine("====================");
         Console.WriteLine("");  
-        Console.WriteLine("=====================ZavMur=====================");
+        Console.WriteLine("===============================================");
         Console.WriteLine("= Codigo | Fecha | SubTotal | Impuesto | Total =");
         Console.WriteLine("=              Cliente | Vendedor              =");
-        Console.WriteLine("=====================ZavMur=====================");
+        Console.WriteLine("================================================");
         Console.WriteLine("");  
 
         foreach (var venta in ListaVentas)
